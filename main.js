@@ -4169,7 +4169,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var appRoutes = [
     {
-        path: 'home',
+        path: '',
         loadChildren: 'app/home/home.module#HomeModule'
     },
     {
@@ -4196,11 +4196,6 @@ var appRoutes = [
     {
         path: 'committee',
         loadChildren: 'app/committee/committee.module#CommitteeModule'
-    },
-    {
-        path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
     }
 ];
 var AppRoutingModule = /** @class */ (function () {
